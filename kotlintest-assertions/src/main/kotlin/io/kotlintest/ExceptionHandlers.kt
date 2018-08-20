@@ -47,7 +47,7 @@ fun shouldFail(thunk: () -> Any?) {
     false
   }
   if (passed)
-    throw Failures.failure("This block should fail by throwing by exception but not exception was thrown")
+    throw Failures.failure("This block should fail by throwing an exception but no exception was thrown")
 }
 
 /**
